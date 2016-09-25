@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+table, td  {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+<nav class="navbar  .navbar-inverse navbar-default .navbar-fixed-top">
+<div class="container-fluid">
+<div class="navbar-header">
+ <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">ITSM TOOL</a>
+</div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav ">
+        <li class="active"><a href="P1_assigned.html">P1_Assigned<span class="badge">2</span></a></li>
+        <li class="active"><a href="#">P1_WIP<span class="badge">5</span></a></li>
+       <li class="active"><a href="P2_Assinged.html">P2_Assigned<span class="badge">3</span></a></li>
+        <li class="active"><a href="#">P2_WIP<span class="badge">1</span></a></li>
+         <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Change Request<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Emergency<span class="badge">1</span></a></li>
+            <li><a href="#">Expidicted<span class="badge">1</span></a></li>
+          </ul>
+        </li>
+      </ul>
+ </div>
+ 
+ <div class="panel panel-primary">
+  <!-- Default panel contents -->
+  <div class="panel-heading">
+  Incidents Overview in last 24 Hours
+  </div>
+  <div class="panel-body">
+<div class="row">
+  <hr>
+        
+<div class="row">
+  <div class="col-sm-12">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="well">
+          <h4 class="text-danger"><span class="label label-danger pull-right">490</span> Incident Opened </h4>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="well">
+          <h4 class="text-success"><span class="label label-success pull-right">300</span> Incident Close </h4>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="well">
+          <h4 class="text-primary"><span class="label label-primary pull-right">10</span> Change Planned </h4>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="well">
+          <h4 class="text-success"><span class="label label-success pull-right">15</span> Change Implement</h4>
+        </div>
+      </div>
+    </div><!--/row-->    
+  </div><!--/col-12-->
+</div><!--/row-->
+  
+</div>
+</div>
+
+ 
+ <div class="panel panel-primary">
+  <!-- Default panel contents -->
+  <div class="panel-heading">
+  Group to get Incidents in last 24 Hours  </div>
+  <div class="panel-body">
+
+<div class="row">
+  <hr>
+        
+<div class="row">
+  <div class="col-sm-12">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="well">
+          <h4 class="text-danger"><span class="label label-danger pull-right">200</span> L2-ASM-XXX-IT-US</h4>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="well">
+          <h4 class="text-success"><span class="label label-success pull-right">300</span>  L2-ASM-XXX-IT-US </h4>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="well">
+          <h4 class="text-primary"><span class="label label-primary pull-right">100</span>  L2-ASM-XXX-IT-US </h4>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="well">
+          <h4 class="text-success"><span class="label label-success pull-right">188</span>  L2-ASM-XXX-IT-US </h4>
+        </div>
+      </div>
+    </div><!--/row-->    
+  </div><!--/col-12-->
+</div><!--/row-->
+  
+</div>
+  </div>
+
+</div>
+</div>
+</nav>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/ngscript.js"></script>
+ <script>
+/* var app = angular.module('myApp', []); */
+/* app.controller('customersCtrl', function($scope, $http) {
+    $http.get("http://www.w3schools.com/angular/customers.php")
+    .then(function (response) {$scope.names = response.data.records;});
+}); */
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+</body>
+
+
+
+
+</html>
